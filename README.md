@@ -1,5 +1,6 @@
 # Tennis court app
 
+Author: Mateusz Rosenkranz, mateuszrosenkranz@gmail.com
 Tennis court app is a simple application created as a recruitment task. 
 
 The project is divided into two main folders: `src` and `tests`. 
