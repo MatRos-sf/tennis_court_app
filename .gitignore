@@ -4,5 +4,4 @@ src/tennis_court.egg-info/
 src/tennis_court/__main__.py
 src/tennis_court/__pycache__
 .idea
-tests
 README.md
