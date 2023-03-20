@@ -70,7 +70,7 @@ class TestTennisCourtApp(unittest.TestCase):
             display, 'When would you like to book? {DD.MM.YYYY HH:MM}\n'
         )
 
-        self.send_input(f"{date.day:0>2}.{date.month:0>2}.{date.year:0>4} {date.hour:0>2}:00")
+        self.send_input(f"{date.day:0>2}.{date.month:0>2}.{date.year:0>4} 15:00")
         display = self.get_output()
         self.assertEqual(
             display, "How long would you like to book court?\n[1] 30 minutes\n[2] 60 minutes\n[3] 90 minutes\n"
@@ -82,7 +82,7 @@ class TestTennisCourtApp(unittest.TestCase):
         display = self.get_output()
         self.assertEqual(
             display,
-            "Add reservation: {}\n".format(f"{date.year:0>4}-{date.month:0>2}-{date.day:0>2} {date.hour:0>2}:00:00")
+            "Add reservation: {}\n".format(f"{date.year:0>4}-{date.month:0>2}-{date.day:0>2} 15:00:00")
         )
 
     def test_make_reservation_incorrect_name(self):

@@ -58,6 +58,7 @@ class TestTennisCourtApp(unittest.TestCase):
         self.get_output()
         self.send_input('3')
 
+        self.get_output()
         day = datetime.today()
         format_date = f"{day.day:0>2}.{day.month:0>2}.{day.year}"
 

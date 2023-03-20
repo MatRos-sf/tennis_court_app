@@ -1,3 +1,4 @@
 src/tennis_court.egg-info/
+src/tennis_court/db/*.db
 src/tennis_court/__pycache__
 .idea

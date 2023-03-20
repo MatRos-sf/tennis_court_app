@@ -71,7 +71,7 @@ class TestTennisCourtApp(unittest.TestCase):
         self.assertEqual(
             display,
             f"The reservation ({day.year}-{day.month:0>2}-{day.day:0>2} 10:00:00)"
-            f" has been cancelled."
+            f" has been cancelled.\n"
         )
         os.remove(os.path.join('src', 'tennis_court', 'db', 'temp.db'))
 
@@ -101,7 +101,7 @@ class TestTennisCourtApp(unittest.TestCase):
         display = self.get_output()
         self.assertEqual(
             display,
-            "You have provided incorrect data."
+            "You have provided incorrect data.\n"
         )
         os.remove(os.path.join('src', 'tennis_court', 'db', 'temp.db'))
 
