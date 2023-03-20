@@ -11,7 +11,7 @@ the application will save created .json and .csv files in `src/tennis_court/save
 
 To install the necessary libraries, first clone the project.
 ```shell
-git clone ...
+git clone git@github.com:MatRos-sf/tennis_court_app.git
 ```
 Then, create a Python virtual environment using:
 ```shell
