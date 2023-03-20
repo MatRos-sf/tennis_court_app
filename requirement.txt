@@ -1,0 +1,13 @@
+bcrypt==4.0.1
+cffi==1.15.1
+cryptography==39.0.2
+fabric==3.0.0
+Faker==17.6.0
+invoke==2.0.0
+paramiko==3.1.0
+pycparser==2.21
+PyNaCl==1.5.0
+python-dateutil==2.8.2
+python-dotenv==1.0.0
+six==1.16.0
+
